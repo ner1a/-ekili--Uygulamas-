@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.isimler{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 415px;
+}
+
+.button{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 41px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    &:active{
+        background: rgb(199, 199, 199);
+    }
+    outline: none;
+}
+.font{
+    font-family: sans-serif;
+}
+.liste{
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 30px;
+    max-width: 450px;
+    font-size: 25px;
+    line-height: 160%;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.baslik{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.katilimcilar{
+    color: rgba($color: #1f838a, $alpha: 1.0);
+}
+.hediyeler, .SPAN{
+    color: rgba($color: #168833, $alpha: 1.0);
+}
+
+.d-none{
+    display: none;
+}

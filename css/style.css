@@ -1,0 +1,91 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.isimler {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  padding: 10px;
+  width: 415px;
+}
+
+.button {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 41px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 8px;
+  outline: none;
+}
+
+.button:active {
+  background: #c7c7c7;
+}
+
+.font {
+  font-family: sans-serif;
+}
+
+.liste {
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 30px;
+  max-width: 450px;
+  font-size: 25px;
+  line-height: 160%;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.baslik {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.katilimcilar {
+  color: #1f838a;
+}
+
+.hediyeler, .SPAN {
+  color: #168833;
+}
+
+.d-none {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
